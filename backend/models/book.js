@@ -7,7 +7,7 @@ const bookSchema = new mongoose.Schema({
     npaginas: Number,
     version: Number,
     editorial: String,
-    isbn: StaticRange,
+    isbn: String,
     // Relacion con user
     user: {type: mongoose.Schema.ObjectId, ref: "users"},
 });
