@@ -10,6 +10,7 @@ const bookSchema = new mongoose.Schema({
     isbn: String,
     // Relacion con user
     user: {type: mongoose.Schema.ObjectId, ref: "users"},
+    dbStatus: true
 });
 
 const book = mongoose.model("books",userSchema);
