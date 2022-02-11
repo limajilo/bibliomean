@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
 
 const bookSchema = new mongoose.Schema({
-    titulo: String,
-    autor: String,
-    fechapublicacion: Date,
-    npaginas: Number,
+    title: String,
+    author: String,
+    publicationdate: Date,
+    npages: Number,
     version: Number,
     editorial: String,
     isbn: String,
